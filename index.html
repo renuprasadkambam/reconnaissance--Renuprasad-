@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OSINT Case File — Siva Nagesh</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">O</span><div><b>OSINT</b><small>CASE FILE</small></div></div>
+    <div class="case-tag">ACADEMIC RECON</div>
+    <nav>
+      <a class="active" href="#overview">Overview</a>
+      <a href="#sources">Sources</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#correlation">Correlation</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#conclusion">Conclusion</a>
+    </nav>
+    <div class="scope">
+      <span class="dot"></span>
+      <div><b>Passive scope</b><small>Public information only</small></div>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">CYBERSECURITY ACTIVITY / OSINT</div>
+        <h1>Interactive Reconnaissance Case File</h1>
+      </div>
+      <div class="case-id">CASE <b>OSINT-2026-01</b></div>
+    </header>
+
+    <section id="overview" class="hero section">
+      <div>
+        <span class="pill green">PASSIVE RECONNAISSANCE</span>
+        <h2>Siva Nagesh</h2>
+        <p class="lead">A structured review of publicly visible information collected for a controlled academic cybersecurity exercise.</p>
+        <div class="meta-row">
+          <span>🎓 Marwadi University</span>
+          <span>🇮🇳 India</span>
+          <span>📅 Evidence reviewed: 02 Oct 2026</span>
+        </div>
+      </div>
+      <div class="scope-card">
+        <div class="scope-icon">✓</div>
+        <div><b>Ethical scope</b><p>No account access, authentication attempts, credential collection, contact, or system interference.</p></div>
+      </div>
+    </section>
+
+    <section class="stats section">
+      <div class="stat"><b>5</b><span>Public-source categories</span></div>
+      <div class="stat"><b>8</b><span>Evidence observations</span></div>
+      <div class="stat"><b>3</b><span>Confidence levels</span></div>
+      <div class="stat"><b>0</b><span>Access attempts</span></div>
+    </section>
+
+    <section id="sources" class="section">
+      <div class="section-head"><div><span class="eyebrow">01 / SOURCE MAP</span><h3>Public platforms identified</h3></div></div>
+      <div class="source-grid">
+        <article class="source-card" data-target="filo">
+          <div class="source-icon filo">F</div><div><b>Filo</b><p>Public educator profile</p></div><span>→</span>
+        </article>
+        <article class="source-card" data-target="linkedin">
+          <div class="source-icon li">in</div><div><b>LinkedIn</b><p>Public professional profile</p></div><span>→</span>
+        </article>
+        <article class="source-card" data-target="snapchat">
+          <div class="source-icon snap">S</div><div><b>Snapchat</b><p>Publicly displayed profile</p></div><span>→</span>
+        </article>
+        <article class="source-card" data-target="instagram">
+          <div class="source-icon ig">◎</div><div><b>Instagram</b><p>Public profile/content</p></div><span>→</span>
+        </article>
+        <article class="source-card" data-target="other">
+          <div class="source-icon web">↗</div><div><b>Other public links</b><p>Links surfaced by a public profile</p></div><span>→</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section">
+      <div class="section-head"><div><span class="eyebrow">02 / ACTIVITY TIMELINE</span><h3>Evidence sequence</h3></div></div>
+      <div class="timeline">
+        <div class="time-item"><div class="time-dot"></div><div><small>24 APR 2025</small><b>Filo profile registration date displayed</b><p>Public educator profile observed with academic and teaching information.</p></div></div>
+        <div class="time-item"><div class="time-dot"></div><div><small>APR 2026</small><b>Public professional profile shows a join date</b><p>LinkedIn-style profile information was visible in the supplied evidence.</p></div></div>
+        <div class="time-item"><div class="time-dot"></div><div><small>02 OCT 2026</small><b>Evidence collection and cross-reference</b><p>Supplied screenshots were organized into an academic OSINT evidence set.</p></div></div>
+      </div>
+    </section>
+
+    <section id="evidence" class="section">
+      <div class="section-head"><div><span class="eyebrow">03 / EVIDENCE GALLERY</span><h3>Public evidence, preserved as supplied</h3></div><span class="note">Sensitive identifiers intentionally excluded from the report.</span></div>
+
+      <article class="evidence-card" id="filo">
+        <div class="evidence-info">
+          <span class="platform">FILO</span><h4>Public educator profile</h4>
+          <ul>
+            <li>Profile name shown as Shiva / Siva Nagesh-related identity.</li>
+            <li>Engineering-student and teaching information is publicly displayed.</li>
+            <li>Marwadi University is mentioned in the supplied profile evidence.</li>
+            <li>A partially masked email is visible; it is not reproduced here.</li>
+          </ul>
+          <span class="confidence high">HIGH — directly visible</span>
+        </div>
+        <img src="assets/filo-evidence.png" alt="Filo public profile evidence">
+      </article>
+
+      <article class="evidence-card" id="linkedin">
+        <div class="evidence-info">
+          <span class="platform">LINKEDIN</span><h4>Public professional profile</h4>
+          <ul>
+            <li>Name displayed as Siva Nagesh.</li>
+            <li>Online educator / management-related headline is visible.</li>
+            <li>Education and public services sections are visible.</li>
+            <li>Greater Rajkot Area and an open-to-work section are displayed.</li>
+          </ul>
+          <span class="confidence high">HIGH — directly visible</span>
+        </div>
+        <img src="assets/linkedin-evidence.png" alt="LinkedIn public profile evidence">
+      </article>
+
+      <article class="evidence-card" id="snapchat">
+        <div class="evidence-info">
+          <span class="platform">SNAPCHAT</span><h4>Publicly displayed profile</h4>
+          <ul>
+            <li>Display name shown as Siva Nagesh.</li>
+            <li>A username is visible in the supplied screenshot.</li>
+            <li>The username is intentionally omitted from this submission.</li>
+          </ul>
+          <span class="confidence medium">MEDIUM — identity correlation</span>
+        </div>
+        <img src="assets/snapchat-evidence.jpeg" alt="Snapchat public profile evidence">
+      </article>
+
+      <article class="evidence-card" id="instagram">
+        <div class="evidence-info">
+          <span class="platform">INSTAGRAM</span><h4>Public social profile</h4>
+          <ul>
+            <li>A public profile and bio are visible.</li>
+            <li>Public post/follower/following counts are displayed.</li>
+            <li>Only information relevant to the academic exercise is considered.</li>
+          </ul>
+          <span class="confidence medium">MEDIUM — identity correlation</span>
+        </div>
+        <img src="assets/instagram-evidence-1.jpeg" alt="Instagram public profile evidence">
+      </article>
+
+      <article class="evidence-card" id="other">
+        <div class="evidence-info">
+          <span class="platform">PUBLIC LINKS</span><h4>Additional public references</h4>
+          <ul>
+            <li>The supplied professional-profile screenshot shows links to other public services.</li>
+            <li>These are treated as leads, not as proof of ownership.</li>
+            <li>No attempt was made to access private or restricted content.</li>
+          </ul>
+          <span class="confidence low">LOW / UNVERIFIED — lead only</span>
+        </div>
+        <img src="assets/social-evidence-2.jpeg" alt="Additional supplied social evidence">
+      </article>
+    </section>
+
+    <section id="correlation" class="section">
+      <div class="section-head"><div><span class="eyebrow">04 / CORRELATION</span><h3>Identity indicators</h3></div></div>
+      <div class="correlation">
+        <div class="node central">SIVA<br>NAGESH</div>
+        <div class="line l1"></div><div class="line l2"></div><div class="line l3"></div><div class="line l4"></div>
+        <div class="node n1">Filo<br><small>education / teaching</small></div>
+        <div class="node n2">LinkedIn<br><small>professional profile</small></div>
+        <div class="node n3">Social<br><small>public profile signals</small></div>
+        <div class="node n4">University<br><small>Marwadi University</small></div>
+      </div>
+      <div class="callout">
+        <b>Analyst note:</b> Multiple public profiles contain overlapping name, education, location, and/or activity indicators. Differences between profiles mean that some details should be treated as observations rather than independently verified facts.
+      </div>
+    </section>
+
+    <section id="methodology" class="section">
+      <div class="section-head"><div><span class="eyebrow">05 / METHODOLOGY</span><h3>How the reconnaissance was performed</h3></div></div>
+      <div class="method-grid">
+        <div><span>01</span><b>Identify</b><p>Locate publicly accessible profiles using permitted search methods.</p></div>
+        <div><span>02</span><b>Observe</b><p>Record only information intentionally exposed on public pages.</p></div>
+        <div><span>03</span><b>Correlate</b><p>Compare non-sensitive public indicators across sources.</p></div>
+        <div><span>04</span><b>Validate</b><p>Separate direct observations from uncertain identity matches.</p></div>
+        <div><span>05</span><b>Document</b><p>Preserve screenshots and write concise, reproducible findings.</p></div>
+      </div>
+      <div class="do-not">
+        <b>Out of scope</b>
+        <span>Passwords</span><span>Authentication tokens</span><span>Financial data</span><span>Private content</span><span>Account access</span><span>Impersonation/contact</span>
+      </div>
+    </section>
+
+    <section id="conclusion" class="section conclusion">
+      <span class="eyebrow">06 / FINAL FINDINGS</span>
+      <h3>Controlled reconnaissance completed</h3>
+      <p>The evidence supplied for this exercise demonstrates a public digital footprint spanning education, professional activity, teaching, and social profiles. The report records what was publicly observable without attempting to access, modify, or interfere with any account or system.</p>
+      <div class="final-grid">
+        <div><b>Confirmed observations</b><p>Public profile information directly visible in the supplied screenshots.</p></div>
+        <div><b>Possible matches</b><p>Cross-platform indicators that appear related but are not independently verified.</p></div>
+        <div><b>Not collected</b><p>Credentials, authentication data, financial information, private content, or direct-contact information.</p></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>ACADEMIC OSINT • PASSIVE RECONNAISSANCE</span>
+      <span>Prepared from supplied public evidence • 02 OCT 2026</span>
+    </footer>
+  </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
